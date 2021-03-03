@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forums</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<main>
+	<h1>Registration Form</h1>
+	<form>
+	<div>
+		<label>User ID:</label>
+		<input minlength="5" maxlength="12" type="id" name="user_id" id="id">
+	</div>	
+	<div>
+		<label>Password:</label>
+		<input minlength="7" maxlength="12" type="Password" name="user_password" id="password">
+	</div>
+	<div>
+		<label>Name:</label>
+		<input  type="text" name="user_name" id="name">
+	</div>
+	<div>
+		<label>Address:</label>
+		<input type="Address" name="user_address" id="address" placeholder="Optional">
+	</div>
+	<div>
+		<label>Country:</label>
+		<select>
+			<option>South Africa</option>
+			<option>China</option>
+			<option>Germany</option>
+			<option>England</option>
+			<option>Spain</option>
+		</select>
+	</div>
+	<div>
+		<label>ZIP Code:</label>
+		<input type="number" name="user_zip" id="zip_code">
+	</div>
+	<div>
+		<label>Email:</label>
+		<input type="Email" name="user_email" id="email">
+	</div>
+	<div >
+		<label>Sex:</label>
+		<input type="checkbox" name="user_sex" id="sex"><label class="sexbox">male</label>
+		<input type="checkbox" name="user_sex" id="sex"><label class="sexbox">female</label>
+
+	</div>
+	<div>
+		<label>Language:</label>
+		<input type="checkbox" name="user_language" id="Language"><label class="sexbox">English</label>
+		<input type="checkbox" name="user_language" id="Language"><label class="sexbox">Non-english</label>
+	</div>
+	<div>
+		<label>About:</label>
+		<textarea placeholder="Optional"></textarea>
+	</div>
+	<div>
+	<button>Submit</button>
+</div>
+
+
+	</form>
+
+
+
+
+</main>

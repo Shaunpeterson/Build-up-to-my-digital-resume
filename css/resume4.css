@@ -1,0 +1,66 @@
+
+html, body {
+	font-family: ariel, sans-serif;
+	margin: 0
+}
+
+.content-info {
+	width: 60%;
+	margin-left: 15px;
+}
+
+
+
+.wrapper {
+	width: 100%; 
+	display: inline-flex;
+}
+
+.sidebar {
+	width:30%
+}
+
+.header {
+	text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+   color: #fff;
+    background: #013a63;
+	}
+h2 {
+   color: #fff;
+    background: #013a63;
+	}
+
+header {
+	background-color: #013a63;
+}
+
+#menue {
+	background-color: #013a63;
+	s
+}
+#menue a:link { color: white;
+text-decoration: none }
+#menue a:visited { color: ; }
+
+#list {
+	list-style-type: none;
+	text-decoration: none
+}
+
+.image {
+	width: 100%
+}
+
+

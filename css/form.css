@@ -1,0 +1,33 @@
+form div {
+	margin-bottom: 24px;
+	text-align: center;
+
+}
+
+label {
+    width: 5%;
+    display: inline-block;
+    text-align: right;
+}
+
+h1 {
+	text-align: center;
+}
+
+.sexbox {
+
+	text-align: left;
+}
+
+textarea {
+	vertical-align: top;
+
+}
+
+button {
+
+	background-color: aqua;
+    font-size: 120%;
+}
+
+

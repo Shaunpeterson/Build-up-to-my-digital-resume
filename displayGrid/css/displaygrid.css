@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  /*specify a size for each column*/
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+/*select all div's that are children of class*/
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*use line numbers when spanning grid items.*/
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+

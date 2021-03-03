@@ -1,0 +1,68 @@
+html body {
+
+	font-family: ariel, sans-serif;
+	margin: 0
+}
+
+img {
+	width: 13%
+}
+
+.header {
+
+	text-align: center;
+	background-color: #013a63;
+	color: white;
+	padding: 10px;
+
+}
+
+.wrapper {
+
+	width: 100%; display: inline-flex;
+}
+
+.sidebar {
+
+	width: 30%
+}
+
+.content {
+	width: 60%
+}
+
+.menue {
+
+	list-style-type: none;
+	background-color: #013a63;
+	padding: 10px;
+
+}
+
+.list {
+
+	list-style-type: none;
+}
+
+a.link {
+	color: white;
+	text-decoration: none
+}
+
+a.LinkedIn {
+
+	text-decoration: none;
+	color: white;
+}
+
+.footer {
+	text-align: center;
+	background-color: #013a63;
+	padding: 10px
+
+}
+
+.content {
+	width: 60%;
+	margin-left: 15px;
+}
